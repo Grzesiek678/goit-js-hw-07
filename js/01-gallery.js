@@ -5,6 +5,7 @@ console.log(galleryItems);
 
 const findGallery = document.querySelector(".gallery");
 
+
 function createGalleryMarkup(items) {
   return items
     .map(
